@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - MuzzleFlash
+  - Wall
+  - Enemy
+  - Bullet
   layers:
   - Default
   - TransparentFX
