@@ -274,10 +274,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"muzzle","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CoolDown","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"CoolDownTime","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"muzzleFlash","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"muzzle","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CoolDown","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"CoolDownTime","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"muzzleFlash","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"livesFlow","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 524713096}
     - {fileID: 342223101}
+    - {fileID: 1104704067}
 --- !u!114 &113091134
 MonoBehaviour:
   m_ObjectHideFlags: 0
