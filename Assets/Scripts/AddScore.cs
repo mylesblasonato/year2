@@ -11,13 +11,12 @@ public class AddScore : MonoBehaviour
 
     private void Awake()
     {
-        _scoreText = GetComponent<TextMeshProUGUI>();
-        UpdateScore();
+        _scoreText = GetComponent<TextMeshProUGUI>();       
     }
 
-    private void Update()
+    private void Start()
     {
-        
+        UpdateScore();
     }
 
     public void UpdateScore()
