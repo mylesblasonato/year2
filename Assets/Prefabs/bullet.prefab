@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2295726338702851257}
   - component: {fileID: 4047117448597243659}
   - component: {fileID: 7099418453112269680}
-  - component: {fileID: 7790461905760834324}
+  - component: {fileID: -2978028475551744942}
   m_Layer: 0
   m_Name: bullet
   m_TagString: Bullet
@@ -166,7 +166,7 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 354f6c79f48571b44b90d0f828559105, type: 2}
---- !u!114 &7790461905760834324
+--- !u!114 &-2978028475551744942
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,10 +175,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7099418453112269685}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd7089cec5de1c249a6e2b0797f1f4ea, type: 3}
+  m_Script: {fileID: 11500000, guid: ecf399aee01ec384b92abf72f457a172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _flowMachine: {fileID: 7099418453112269680}
-  _collidedObjectName: 
-  _boltEventName: BulletCollide
+  _unityEventName: BulletHitEnemy
   _tag: Enemy
